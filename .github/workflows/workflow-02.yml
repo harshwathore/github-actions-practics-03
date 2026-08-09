@@ -1,0 +1,16 @@
+name: This is my second workflow
+
+on:
+  push:
+    branch: [main]
+
+jobs:
+  my-job2:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: This is my step to print from workflow-02.yml
+        run: echo "Hello there I am workflow-02 from github-actions-practice-03"
+      
+      - name: This is second workflow
+        run: echo "Hello there This is my second workflow-step"
