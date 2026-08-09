@@ -1,0 +1,12 @@
+name: workflow-03
+
+on:
+  workflow_dispatch:
+
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: This is first step to trigger the workflow manually
+        run: echo "Hello running workflow manually"
