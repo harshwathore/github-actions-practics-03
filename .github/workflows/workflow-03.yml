@@ -19,7 +19,7 @@ jobs:
         run: echo "Building using Docker"
 
   Test:
-    runs-on: ubuntu - latest
+    runs-on: ubuntu-latest
     
     steps:
       - name: Running test cases
