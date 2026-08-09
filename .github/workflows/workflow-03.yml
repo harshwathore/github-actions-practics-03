@@ -1,7 +1,7 @@
 name: workflow-03
 
 on:
-  workflow-dispatch:
+  workflow_dispatch:
 
 jobs:
   my-job:
